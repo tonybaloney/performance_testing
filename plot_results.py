@@ -26,8 +26,7 @@ for f in args.files:
         try:
             benchmark = benchmark_suite.get_benchmark(name)
             if benchmark is not None:
-                records.append(
-                {
+                records.append({
                     'test': name,
                     'runtime': bench_name.replace('.json', ''),
                     'stdev': benchmark.stdev(),
