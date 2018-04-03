@@ -1,0 +1,22 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="card-deck">
+        {% for test in tests %}
+            <div class="card">
+                <img class="card-img-top" src="png/{{test.name}}-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">{{test.name}}</h5>
+                <p class="card-text">
+                    {{test.results_table}}
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

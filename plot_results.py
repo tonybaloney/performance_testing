@@ -1,6 +1,8 @@
 import argparse
+import os
 from pathlib import Path
 from perf._bench import BenchmarkSuite
+from jinja2 import Environment, FileSystemLoader
 
 import seaborn as sns
 import pandas as pd
@@ -38,17 +40,31 @@ for f in args.files:
             pass
 
 df = pd.DataFrame(records)
-
+tests = []
 for test in benchmark_names:
     # Draw a pointplot to show pulse as a function of three categorical factors
+    
     g = sns.factorplot(
         x="runtime",
         y="mean",
         data=df[df['test'] == test],
-        #capsize=.2,
         palette="YlGnBu_d",
         size=12,
         aspect=1,
         kind="bar")
     g.despine(left=True)
     g.savefig("png/{}-result.png".format(test))
+    tests.append({
+        'name': test,
+        'results_table': df[df['test'] == test].to_html()
+    })
+
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+
+j2_env = Environment(loader=FileSystemLoader(THIS_DIR),
+                     trim_blocks=True)
+result = j2_env.get_template('template.html').render(
+    tests=tests
+)
+with open('index.html', 'w') as out_html:
+    out_html.write(result)

@@ -1,1 +1,4700 @@
-hello dave
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="card-deck">
+                    <div class="card">
+                <img class="card-img-top" src="png/2to3-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">2to3</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.682487</td>
+      <td>0.674050</td>
+      <td>python2.7</td>
+      <td>0.027042</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>0.665460</td>
+      <td>0.663683</td>
+      <td>python3.4</td>
+      <td>0.008768</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>0.703329</td>
+      <td>0.702177</td>
+      <td>python3.5</td>
+      <td>0.007762</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>180</th>
+      <td>0.685416</td>
+      <td>0.684991</td>
+      <td>python3.6</td>
+      <td>0.011164</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>0.610601</td>
+      <td>0.611162</td>
+      <td>python3.7</td>
+      <td>0.008048</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>1.551178</td>
+      <td>1.555337</td>
+      <td>pypy5.6.0</td>
+      <td>0.022093</td>
+      <td>2to3</td>
+    </tr>
+    <tr>
+      <th>359</th>
+      <td>3.006337</td>
+      <td>3.000594</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.040812</td>
+      <td>2to3</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/chameleon-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">chameleon</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>0.019981</td>
+      <td>0.019885</td>
+      <td>python2.7</td>
+      <td>0.000671</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>0.020003</td>
+      <td>0.019945</td>
+      <td>python3.4</td>
+      <td>0.000492</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>0.021989</td>
+      <td>0.021949</td>
+      <td>python3.5</td>
+      <td>0.000347</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>181</th>
+      <td>0.022579</td>
+      <td>0.022506</td>
+      <td>python3.6</td>
+      <td>0.001030</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>240</th>
+      <td>0.020495</td>
+      <td>0.020503</td>
+      <td>python3.7</td>
+      <td>0.000593</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>0.007013</td>
+      <td>0.006988</td>
+      <td>pypy5.6.0</td>
+      <td>0.000129</td>
+      <td>chameleon</td>
+    </tr>
+    <tr>
+      <th>360</th>
+      <td>0.007526</td>
+      <td>0.007511</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000212</td>
+      <td>chameleon</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/chaos-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">chaos</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2</th>
+      <td>0.210581</td>
+      <td>0.210146</td>
+      <td>python2.7</td>
+      <td>0.002969</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>0.251732</td>
+      <td>0.250790</td>
+      <td>python3.4</td>
+      <td>0.005426</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>0.262840</td>
+      <td>0.262661</td>
+      <td>python3.5</td>
+      <td>0.004013</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>182</th>
+      <td>0.262199</td>
+      <td>0.262777</td>
+      <td>python3.6</td>
+      <td>0.005134</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>241</th>
+      <td>0.230313</td>
+      <td>0.228701</td>
+      <td>python3.7</td>
+      <td>0.010575</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>0.005520</td>
+      <td>0.005514</td>
+      <td>pypy5.6.0</td>
+      <td>0.000168</td>
+      <td>chaos</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>0.008554</td>
+      <td>0.008583</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000510</td>
+      <td>chaos</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/crypto_pyaes-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">crypto_pyaes</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>0.158888</td>
+      <td>0.158553</td>
+      <td>python2.7</td>
+      <td>0.003169</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>0.225684</td>
+      <td>0.225500</td>
+      <td>python3.4</td>
+      <td>0.003636</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>0.237238</td>
+      <td>0.236153</td>
+      <td>python3.5</td>
+      <td>0.005859</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>183</th>
+      <td>0.225771</td>
+      <td>0.224022</td>
+      <td>python3.6</td>
+      <td>0.008850</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>242</th>
+      <td>0.214442</td>
+      <td>0.214487</td>
+      <td>python3.7</td>
+      <td>0.004107</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>0.011664</td>
+      <td>0.011657</td>
+      <td>pypy5.6.0</td>
+      <td>0.000227</td>
+      <td>crypto_pyaes</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>0.068043</td>
+      <td>0.068143</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001866</td>
+      <td>crypto_pyaes</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/deltablue-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">deltablue</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>0.016997</td>
+      <td>0.016954</td>
+      <td>python2.7</td>
+      <td>0.000417</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>0.015169</td>
+      <td>0.014969</td>
+      <td>python3.4</td>
+      <td>0.000599</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>0.016260</td>
+      <td>0.016214</td>
+      <td>python3.5</td>
+      <td>0.000363</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>184</th>
+      <td>0.017823</td>
+      <td>0.017768</td>
+      <td>python3.6</td>
+      <td>0.000513</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>0.015222</td>
+      <td>0.015208</td>
+      <td>python3.7</td>
+      <td>0.000642</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>0.000376</td>
+      <td>0.000374</td>
+      <td>pypy5.6.0</td>
+      <td>0.000011</td>
+      <td>deltablue</td>
+    </tr>
+    <tr>
+      <th>363</th>
+      <td>0.000543</td>
+      <td>0.000544</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000016</td>
+      <td>deltablue</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/django_template-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">django_template</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5</th>
+      <td>0.287013</td>
+      <td>0.286258</td>
+      <td>python2.7</td>
+      <td>0.004730</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>0.293768</td>
+      <td>0.292046</td>
+      <td>python3.4</td>
+      <td>0.006074</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>0.305060</td>
+      <td>0.304453</td>
+      <td>python3.5</td>
+      <td>0.004476</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>185</th>
+      <td>0.312107</td>
+      <td>0.311306</td>
+      <td>python3.6</td>
+      <td>0.014250</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>0.240790</td>
+      <td>0.239473</td>
+      <td>python3.7</td>
+      <td>0.007584</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>0.026693</td>
+      <td>0.026800</td>
+      <td>pypy5.6.0</td>
+      <td>0.000910</td>
+      <td>django_template</td>
+    </tr>
+    <tr>
+      <th>364</th>
+      <td>0.054163</td>
+      <td>0.053421</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.002746</td>
+      <td>django_template</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/dulwich_log-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">dulwich_log</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6</th>
+      <td>0.146943</td>
+      <td>0.146686</td>
+      <td>python2.7</td>
+      <td>0.002452</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>0.137754</td>
+      <td>0.137644</td>
+      <td>python3.4</td>
+      <td>0.002424</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>0.141278</td>
+      <td>0.141076</td>
+      <td>python3.5</td>
+      <td>0.002411</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>0.141700</td>
+      <td>0.141846</td>
+      <td>python3.6</td>
+      <td>0.003539</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>0.134199</td>
+      <td>0.134141</td>
+      <td>python3.7</td>
+      <td>0.004032</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>0.088988</td>
+      <td>0.091778</td>
+      <td>pypy5.6.0</td>
+      <td>0.006795</td>
+      <td>dulwich_log</td>
+    </tr>
+    <tr>
+      <th>365</th>
+      <td>0.114249</td>
+      <td>0.112119</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.005676</td>
+      <td>dulwich_log</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/fannkuch-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">fannkuch</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>1.072190</td>
+      <td>1.069646</td>
+      <td>python2.7</td>
+      <td>0.016575</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>1.179287</td>
+      <td>1.179472</td>
+      <td>python3.4</td>
+      <td>0.013059</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>1.230629</td>
+      <td>1.228166</td>
+      <td>python3.5</td>
+      <td>0.015051</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>187</th>
+      <td>0.998279</td>
+      <td>0.991910</td>
+      <td>python3.6</td>
+      <td>0.025066</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>0.927640</td>
+      <td>0.922895</td>
+      <td>python3.7</td>
+      <td>0.019632</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>0.124523</td>
+      <td>0.124309</td>
+      <td>pypy5.6.0</td>
+      <td>0.002255</td>
+      <td>fannkuch</td>
+    </tr>
+    <tr>
+      <th>366</th>
+      <td>0.131086</td>
+      <td>0.130895</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.003867</td>
+      <td>fannkuch</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/float-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">float</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>8</th>
+      <td>0.231138</td>
+      <td>0.230653</td>
+      <td>python2.7</td>
+      <td>0.004023</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>0.229754</td>
+      <td>0.228467</td>
+      <td>python3.4</td>
+      <td>0.006730</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>0.238387</td>
+      <td>0.238055</td>
+      <td>python3.5</td>
+      <td>0.002888</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>188</th>
+      <td>0.233505</td>
+      <td>0.233635</td>
+      <td>python3.6</td>
+      <td>0.006963</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>0.207521</td>
+      <td>0.208554</td>
+      <td>python3.7</td>
+      <td>0.004256</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>0.026125</td>
+      <td>0.025908</td>
+      <td>pypy5.6.0</td>
+      <td>0.001123</td>
+      <td>float</td>
+    </tr>
+    <tr>
+      <th>367</th>
+      <td>0.030768</td>
+      <td>0.030533</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001934</td>
+      <td>float</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/genshi_text-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">genshi_text</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>9</th>
+      <td>0.061512</td>
+      <td>0.061408</td>
+      <td>python2.7</td>
+      <td>0.001266</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>0.065340</td>
+      <td>0.064974</td>
+      <td>python3.4</td>
+      <td>0.001663</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>0.068010</td>
+      <td>0.067561</td>
+      <td>python3.5</td>
+      <td>0.002388</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>0.063812</td>
+      <td>0.063959</td>
+      <td>python3.6</td>
+      <td>0.001648</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>248</th>
+      <td>0.058722</td>
+      <td>0.058774</td>
+      <td>python3.7</td>
+      <td>0.001926</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>0.016478</td>
+      <td>0.016515</td>
+      <td>pypy5.6.0</td>
+      <td>0.000396</td>
+      <td>genshi_text</td>
+    </tr>
+    <tr>
+      <th>368</th>
+      <td>0.035749</td>
+      <td>0.033788</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.004850</td>
+      <td>genshi_text</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/genshi_xml-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">genshi_xml</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>10</th>
+      <td>0.135422</td>
+      <td>0.135248</td>
+      <td>python2.7</td>
+      <td>0.003890</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>0.134131</td>
+      <td>0.133847</td>
+      <td>python3.4</td>
+      <td>0.003111</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>0.142012</td>
+      <td>0.141682</td>
+      <td>python3.5</td>
+      <td>0.003338</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>0.148345</td>
+      <td>0.144378</td>
+      <td>python3.6</td>
+      <td>0.012261</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>249</th>
+      <td>0.126241</td>
+      <td>0.125901</td>
+      <td>python3.7</td>
+      <td>0.003390</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>0.052990</td>
+      <td>0.050747</td>
+      <td>pypy5.6.0</td>
+      <td>0.004640</td>
+      <td>genshi_xml</td>
+    </tr>
+    <tr>
+      <th>369</th>
+      <td>0.048159</td>
+      <td>0.045377</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.004398</td>
+      <td>genshi_xml</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/go-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">go</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>11</th>
+      <td>0.438093</td>
+      <td>0.437936</td>
+      <td>python2.7</td>
+      <td>0.004463</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>0.503798</td>
+      <td>0.501781</td>
+      <td>python3.4</td>
+      <td>0.011097</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>0.528445</td>
+      <td>0.528624</td>
+      <td>python3.5</td>
+      <td>0.008632</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>191</th>
+      <td>0.596623</td>
+      <td>0.596957</td>
+      <td>python3.6</td>
+      <td>0.038428</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>250</th>
+      <td>0.503478</td>
+      <td>0.503589</td>
+      <td>python3.7</td>
+      <td>0.009041</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>0.126904</td>
+      <td>0.125047</td>
+      <td>pypy5.6.0</td>
+      <td>0.006767</td>
+      <td>go</td>
+    </tr>
+    <tr>
+      <th>370</th>
+      <td>0.097254</td>
+      <td>0.096034</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.004160</td>
+      <td>go</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/hexiom-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">hexiom</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>12</th>
+      <td>0.018674</td>
+      <td>0.018580</td>
+      <td>python2.7</td>
+      <td>0.000601</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>0.021517</td>
+      <td>0.021471</td>
+      <td>python3.4</td>
+      <td>0.000347</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>0.023327</td>
+      <td>0.023222</td>
+      <td>python3.5</td>
+      <td>0.000375</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>192</th>
+      <td>0.023378</td>
+      <td>0.023428</td>
+      <td>python3.6</td>
+      <td>0.000847</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>251</th>
+      <td>0.020296</td>
+      <td>0.020246</td>
+      <td>python3.7</td>
+      <td>0.000473</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>0.001916</td>
+      <td>0.001890</td>
+      <td>pypy5.6.0</td>
+      <td>0.000092</td>
+      <td>hexiom</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>0.002191</td>
+      <td>0.002158</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000098</td>
+      <td>hexiom</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/hg_startup-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">hg_startup</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>13</th>
+      <td>0.109802</td>
+      <td>0.109033</td>
+      <td>python2.7</td>
+      <td>0.003917</td>
+      <td>hg_startup</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>0.202022</td>
+      <td>0.201516</td>
+      <td>pypy5.6.0</td>
+      <td>0.003039</td>
+      <td>hg_startup</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/html5lib-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">html5lib</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>14</th>
+      <td>0.223119</td>
+      <td>0.219770</td>
+      <td>python2.7</td>
+      <td>0.007760</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>0.236478</td>
+      <td>0.233034</td>
+      <td>python3.4</td>
+      <td>0.010535</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>134</th>
+      <td>0.199212</td>
+      <td>0.196792</td>
+      <td>python3.5</td>
+      <td>0.009597</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>193</th>
+      <td>0.193119</td>
+      <td>0.191058</td>
+      <td>python3.6</td>
+      <td>0.009874</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>252</th>
+      <td>0.170205</td>
+      <td>0.167318</td>
+      <td>python3.7</td>
+      <td>0.010354</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>0.044158</td>
+      <td>0.043893</td>
+      <td>pypy5.6.0</td>
+      <td>0.001836</td>
+      <td>html5lib</td>
+    </tr>
+    <tr>
+      <th>372</th>
+      <td>0.048360</td>
+      <td>0.048704</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.002813</td>
+      <td>html5lib</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/json_dumps-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">json_dumps</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>15</th>
+      <td>0.022402</td>
+      <td>0.022383</td>
+      <td>python2.7</td>
+      <td>0.000379</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>0.026684</td>
+      <td>0.026406</td>
+      <td>python3.4</td>
+      <td>0.001091</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>135</th>
+      <td>0.027532</td>
+      <td>0.027353</td>
+      <td>python3.5</td>
+      <td>0.000743</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>194</th>
+      <td>0.025568</td>
+      <td>0.025533</td>
+      <td>python3.6</td>
+      <td>0.000963</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>253</th>
+      <td>0.024153</td>
+      <td>0.023952</td>
+      <td>python3.7</td>
+      <td>0.001129</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>0.006206</td>
+      <td>0.006168</td>
+      <td>pypy5.6.0</td>
+      <td>0.000148</td>
+      <td>json_dumps</td>
+    </tr>
+    <tr>
+      <th>373</th>
+      <td>0.061090</td>
+      <td>0.061269</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.002754</td>
+      <td>json_dumps</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/json_loads-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">json_loads</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>16</th>
+      <td>0.000096</td>
+      <td>0.000095</td>
+      <td>python2.7</td>
+      <td>2.142491e-06</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>0.000050</td>
+      <td>0.000049</td>
+      <td>python3.4</td>
+      <td>9.726041e-07</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>0.000052</td>
+      <td>0.000051</td>
+      <td>python3.5</td>
+      <td>8.577042e-07</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>0.000054</td>
+      <td>0.000054</td>
+      <td>python3.6</td>
+      <td>1.587672e-06</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>254</th>
+      <td>0.000056</td>
+      <td>0.000056</td>
+      <td>python3.7</td>
+      <td>2.230938e-06</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>0.000021</td>
+      <td>0.000021</td>
+      <td>pypy5.6.0</td>
+      <td>1.464237e-06</td>
+      <td>json_loads</td>
+    </tr>
+    <tr>
+      <th>374</th>
+      <td>0.000024</td>
+      <td>0.000024</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>1.330137e-06</td>
+      <td>json_loads</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/logging_format-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">logging_format</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>17</th>
+      <td>0.000023</td>
+      <td>0.000023</td>
+      <td>python2.7</td>
+      <td>5.041859e-07</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>0.000024</td>
+      <td>0.000024</td>
+      <td>python3.4</td>
+      <td>5.360192e-07</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>137</th>
+      <td>0.000024</td>
+      <td>0.000024</td>
+      <td>python3.5</td>
+      <td>6.647403e-07</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>0.000030</td>
+      <td>0.000029</td>
+      <td>python3.6</td>
+      <td>1.045321e-06</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>255</th>
+      <td>0.000020</td>
+      <td>0.000020</td>
+      <td>python3.7</td>
+      <td>6.717268e-07</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>0.000004</td>
+      <td>0.000004</td>
+      <td>pypy5.6.0</td>
+      <td>1.391913e-07</td>
+      <td>logging_format</td>
+    </tr>
+    <tr>
+      <th>375</th>
+      <td>0.000006</td>
+      <td>0.000006</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>3.366281e-07</td>
+      <td>logging_format</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/logging_silent-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">logging_silent</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>18</th>
+      <td>5.721808e-07</td>
+      <td>5.707763e-07</td>
+      <td>python2.7</td>
+      <td>8.764538e-09</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>7.146708e-07</td>
+      <td>7.117163e-07</td>
+      <td>python3.4</td>
+      <td>2.033406e-08</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>138</th>
+      <td>7.819009e-07</td>
+      <td>7.823692e-07</td>
+      <td>python3.5</td>
+      <td>1.958160e-08</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>7.521978e-07</td>
+      <td>7.524611e-07</td>
+      <td>python3.6</td>
+      <td>2.951718e-08</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>256</th>
+      <td>3.779469e-07</td>
+      <td>3.769473e-07</td>
+      <td>python3.7</td>
+      <td>1.544327e-08</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>1.511038e-10</td>
+      <td>1.499261e-10</td>
+      <td>pypy5.6.0</td>
+      <td>3.167391e-12</td>
+      <td>logging_silent</td>
+    </tr>
+    <tr>
+      <th>376</th>
+      <td>1.565249e-10</td>
+      <td>1.560433e-10</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>3.902059e-12</td>
+      <td>logging_silent</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/logging_simple-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">logging_simple</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>19</th>
+      <td>0.000020</td>
+      <td>0.000020</td>
+      <td>python2.7</td>
+      <td>4.824368e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>0.000020</td>
+      <td>0.000020</td>
+      <td>python3.4</td>
+      <td>4.305177e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>139</th>
+      <td>0.000020</td>
+      <td>0.000020</td>
+      <td>python3.5</td>
+      <td>5.257946e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>0.000021</td>
+      <td>0.000021</td>
+      <td>python3.6</td>
+      <td>5.592203e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>257</th>
+      <td>0.000018</td>
+      <td>0.000018</td>
+      <td>python3.7</td>
+      <td>4.590299e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>0.000003</td>
+      <td>0.000003</td>
+      <td>pypy5.6.0</td>
+      <td>1.194045e-07</td>
+      <td>logging_simple</td>
+    </tr>
+    <tr>
+      <th>377</th>
+      <td>0.000005</td>
+      <td>0.000005</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>1.706615e-07</td>
+      <td>logging_simple</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/mako-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">mako</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>20</th>
+      <td>0.053565</td>
+      <td>0.053281</td>
+      <td>python2.7</td>
+      <td>0.001188</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>0.035504</td>
+      <td>0.035451</td>
+      <td>python3.4</td>
+      <td>0.000630</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>140</th>
+      <td>0.039377</td>
+      <td>0.039043</td>
+      <td>python3.5</td>
+      <td>0.001824</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>0.044321</td>
+      <td>0.044267</td>
+      <td>python3.6</td>
+      <td>0.001233</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>258</th>
+      <td>0.038644</td>
+      <td>0.038508</td>
+      <td>python3.7</td>
+      <td>0.001304</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>0.017879</td>
+      <td>0.017547</td>
+      <td>pypy5.6.0</td>
+      <td>0.001764</td>
+      <td>mako</td>
+    </tr>
+    <tr>
+      <th>378</th>
+      <td>0.017270</td>
+      <td>0.017366</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001459</td>
+      <td>mako</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/meteor_contest-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">meteor_contest</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>21</th>
+      <td>0.197238</td>
+      <td>0.196515</td>
+      <td>python2.7</td>
+      <td>0.002806</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>0.188973</td>
+      <td>0.188213</td>
+      <td>python3.4</td>
+      <td>0.005273</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>141</th>
+      <td>0.196532</td>
+      <td>0.195830</td>
+      <td>python3.5</td>
+      <td>0.004034</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>0.193251</td>
+      <td>0.192973</td>
+      <td>python3.6</td>
+      <td>0.004212</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>259</th>
+      <td>0.177932</td>
+      <td>0.177507</td>
+      <td>python3.7</td>
+      <td>0.004648</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>0.062258</td>
+      <td>0.061521</td>
+      <td>pypy5.6.0</td>
+      <td>0.002559</td>
+      <td>meteor_contest</td>
+    </tr>
+    <tr>
+      <th>379</th>
+      <td>0.072634</td>
+      <td>0.072163</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.003210</td>
+      <td>meteor_contest</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/nbody-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">nbody</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>22</th>
+      <td>0.258446</td>
+      <td>0.257724</td>
+      <td>python2.7</td>
+      <td>0.004359</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>0.244963</td>
+      <td>0.244573</td>
+      <td>python3.4</td>
+      <td>0.003433</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>142</th>
+      <td>0.253272</td>
+      <td>0.252683</td>
+      <td>python3.5</td>
+      <td>0.003631</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>0.240976</td>
+      <td>0.240476</td>
+      <td>python3.6</td>
+      <td>0.006007</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>260</th>
+      <td>0.231209</td>
+      <td>0.231521</td>
+      <td>python3.7</td>
+      <td>0.004867</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>0.019013</td>
+      <td>0.018955</td>
+      <td>pypy5.6.0</td>
+      <td>0.000350</td>
+      <td>nbody</td>
+    </tr>
+    <tr>
+      <th>380</th>
+      <td>0.019531</td>
+      <td>0.019493</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000785</td>
+      <td>nbody</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/nqueens-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">nqueens</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>23</th>
+      <td>0.203355</td>
+      <td>0.203260</td>
+      <td>python2.7</td>
+      <td>0.003275</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>0.219832</td>
+      <td>0.219828</td>
+      <td>python3.4</td>
+      <td>0.002557</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>0.237268</td>
+      <td>0.236771</td>
+      <td>python3.5</td>
+      <td>0.003845</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>0.210485</td>
+      <td>0.210330</td>
+      <td>python3.6</td>
+      <td>0.004765</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>261</th>
+      <td>0.187005</td>
+      <td>0.185901</td>
+      <td>python3.7</td>
+      <td>0.005355</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>0.031738</td>
+      <td>0.031516</td>
+      <td>pypy5.6.0</td>
+      <td>0.001199</td>
+      <td>nqueens</td>
+    </tr>
+    <tr>
+      <th>381</th>
+      <td>0.033367</td>
+      <td>0.033367</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000769</td>
+      <td>nqueens</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pathlib-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pathlib</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>24</th>
+      <td>0.075571</td>
+      <td>0.075389</td>
+      <td>python2.7</td>
+      <td>0.001968</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>0.072467</td>
+      <td>0.072104</td>
+      <td>python3.4</td>
+      <td>0.001523</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>0.073859</td>
+      <td>0.073767</td>
+      <td>python3.5</td>
+      <td>0.001413</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>0.077384</td>
+      <td>0.076583</td>
+      <td>python3.6</td>
+      <td>0.004110</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>262</th>
+      <td>0.077049</td>
+      <td>0.076772</td>
+      <td>python3.7</td>
+      <td>0.001859</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>0.053448</td>
+      <td>0.049631</td>
+      <td>pypy5.6.0</td>
+      <td>0.005783</td>
+      <td>pathlib</td>
+    </tr>
+    <tr>
+      <th>382</th>
+      <td>0.045983</td>
+      <td>0.045524</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001595</td>
+      <td>pathlib</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pickle-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pickle</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>25</th>
+      <td>0.000035</td>
+      <td>0.000035</td>
+      <td>python2.7</td>
+      <td>5.920261e-07</td>
+      <td>pickle</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>0.000018</td>
+      <td>0.000018</td>
+      <td>python3.4</td>
+      <td>5.049013e-07</td>
+      <td>pickle</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>0.000021</td>
+      <td>0.000020</td>
+      <td>python3.5</td>
+      <td>5.071255e-07</td>
+      <td>pickle</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>0.000019</td>
+      <td>0.000019</td>
+      <td>python3.6</td>
+      <td>6.736503e-07</td>
+      <td>pickle</td>
+    </tr>
+    <tr>
+      <th>263</th>
+      <td>0.000021</td>
+      <td>0.000021</td>
+      <td>python3.7</td>
+      <td>1.425687e-06</td>
+      <td>pickle</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>0.000068</td>
+      <td>0.000068</td>
+      <td>pypy5.6.0</td>
+      <td>2.304668e-06</td>
+      <td>pickle</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pickle_dict-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pickle_dict</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>26</th>
+      <td>0.000059</td>
+      <td>0.000058</td>
+      <td>python2.7</td>
+      <td>1.619369e-06</td>
+      <td>pickle_dict</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>0.000044</td>
+      <td>0.000044</td>
+      <td>python3.4</td>
+      <td>8.170439e-07</td>
+      <td>pickle_dict</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>0.000055</td>
+      <td>0.000055</td>
+      <td>python3.5</td>
+      <td>9.402324e-07</td>
+      <td>pickle_dict</td>
+    </tr>
+    <tr>
+      <th>205</th>
+      <td>0.000054</td>
+      <td>0.000054</td>
+      <td>python3.6</td>
+      <td>1.683318e-06</td>
+      <td>pickle_dict</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>0.000055</td>
+      <td>0.000055</td>
+      <td>python3.7</td>
+      <td>1.524467e-06</td>
+      <td>pickle_dict</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>0.000258</td>
+      <td>0.000257</td>
+      <td>pypy5.6.0</td>
+      <td>7.729661e-06</td>
+      <td>pickle_dict</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pickle_list-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pickle_list</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>27</th>
+      <td>0.000013</td>
+      <td>0.000012</td>
+      <td>python2.7</td>
+      <td>3.048212e-07</td>
+      <td>pickle_list</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>0.000007</td>
+      <td>0.000007</td>
+      <td>python3.4</td>
+      <td>2.161716e-07</td>
+      <td>pickle_list</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>0.000008</td>
+      <td>0.000008</td>
+      <td>python3.5</td>
+      <td>1.449770e-07</td>
+      <td>pickle_list</td>
+    </tr>
+    <tr>
+      <th>206</th>
+      <td>0.000008</td>
+      <td>0.000007</td>
+      <td>python3.6</td>
+      <td>1.636611e-07</td>
+      <td>pickle_list</td>
+    </tr>
+    <tr>
+      <th>265</th>
+      <td>0.000008</td>
+      <td>0.000008</td>
+      <td>python3.7</td>
+      <td>2.256034e-07</td>
+      <td>pickle_list</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>0.000036</td>
+      <td>0.000036</td>
+      <td>pypy5.6.0</td>
+      <td>1.546581e-06</td>
+      <td>pickle_list</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pickle_pure_python-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pickle_pure_python</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>28</th>
+      <td>0.000817</td>
+      <td>0.000818</td>
+      <td>python2.7</td>
+      <td>0.000014</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>0.000944</td>
+      <td>0.000945</td>
+      <td>python3.4</td>
+      <td>0.000020</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>0.001004</td>
+      <td>0.000997</td>
+      <td>python3.5</td>
+      <td>0.000024</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>0.001101</td>
+      <td>0.001098</td>
+      <td>python3.6</td>
+      <td>0.000037</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>266</th>
+      <td>0.000936</td>
+      <td>0.000936</td>
+      <td>python3.7</td>
+      <td>0.000027</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>0.000055</td>
+      <td>0.000054</td>
+      <td>pypy5.6.0</td>
+      <td>0.000003</td>
+      <td>pickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>383</th>
+      <td>0.000106</td>
+      <td>0.000104</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000005</td>
+      <td>pickle_pure_python</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pidigits-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pidigits</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>29</th>
+      <td>0.256225</td>
+      <td>0.256489</td>
+      <td>python2.7</td>
+      <td>0.003230</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>0.252651</td>
+      <td>0.252335</td>
+      <td>python3.4</td>
+      <td>0.005128</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>0.254847</td>
+      <td>0.254104</td>
+      <td>python3.5</td>
+      <td>0.005121</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>208</th>
+      <td>0.262440</td>
+      <td>0.262409</td>
+      <td>python3.6</td>
+      <td>0.006980</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>267</th>
+      <td>0.266935</td>
+      <td>0.266277</td>
+      <td>python3.7</td>
+      <td>0.005556</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>0.181568</td>
+      <td>0.181804</td>
+      <td>pypy5.6.0</td>
+      <td>0.003687</td>
+      <td>pidigits</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>0.192938</td>
+      <td>0.192998</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.006194</td>
+      <td>pidigits</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/pyflate-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">pyflate</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>30</th>
+      <td>1.220629</td>
+      <td>1.216563</td>
+      <td>python2.7</td>
+      <td>0.022814</td>
+      <td>pyflate</td>
+    </tr>
+    <tr>
+      <th>328</th>
+      <td>0.263680</td>
+      <td>0.260996</td>
+      <td>pypy5.6.0</td>
+      <td>0.009391</td>
+      <td>pyflate</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/python_startup-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">python_startup</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>31</th>
+      <td>0.016861</td>
+      <td>0.016766</td>
+      <td>python2.7</td>
+      <td>0.000437</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>0.034951</td>
+      <td>0.034698</td>
+      <td>python3.4</td>
+      <td>0.001338</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>150</th>
+      <td>0.035659</td>
+      <td>0.035584</td>
+      <td>python3.5</td>
+      <td>0.000700</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>209</th>
+      <td>0.028463</td>
+      <td>0.028440</td>
+      <td>python3.6</td>
+      <td>0.000852</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>268</th>
+      <td>0.023507</td>
+      <td>0.023609</td>
+      <td>python3.7</td>
+      <td>0.000636</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>329</th>
+      <td>0.030627</td>
+      <td>0.030548</td>
+      <td>pypy5.6.0</td>
+      <td>0.000461</td>
+      <td>python_startup</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>0.060832</td>
+      <td>0.060917</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001095</td>
+      <td>python_startup</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/python_startup_no_site-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">python_startup_no_site</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>32</th>
+      <td>0.011625</td>
+      <td>0.011572</td>
+      <td>python2.7</td>
+      <td>0.000210</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>0.024503</td>
+      <td>0.024376</td>
+      <td>python3.4</td>
+      <td>0.000574</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>0.025142</td>
+      <td>0.025082</td>
+      <td>python3.5</td>
+      <td>0.000518</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>0.022383</td>
+      <td>0.022305</td>
+      <td>python3.6</td>
+      <td>0.000718</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>269</th>
+      <td>0.018551</td>
+      <td>0.018470</td>
+      <td>python3.7</td>
+      <td>0.000586</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>330</th>
+      <td>0.028557</td>
+      <td>0.028443</td>
+      <td>pypy5.6.0</td>
+      <td>0.000497</td>
+      <td>python_startup_no_site</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>0.038492</td>
+      <td>0.038369</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001098</td>
+      <td>python_startup_no_site</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/raytrace-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">raytrace</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>33</th>
+      <td>1.020278</td>
+      <td>1.018852</td>
+      <td>python2.7</td>
+      <td>0.006850</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>1.154208</td>
+      <td>1.152956</td>
+      <td>python3.4</td>
+      <td>0.012136</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>1.228867</td>
+      <td>1.225532</td>
+      <td>python3.5</td>
+      <td>0.019050</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>211</th>
+      <td>1.177305</td>
+      <td>1.169228</td>
+      <td>python3.6</td>
+      <td>0.027562</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>270</th>
+      <td>1.038772</td>
+      <td>1.039048</td>
+      <td>python3.7</td>
+      <td>0.014360</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>331</th>
+      <td>0.012899</td>
+      <td>0.012807</td>
+      <td>pypy5.6.0</td>
+      <td>0.000388</td>
+      <td>raytrace</td>
+    </tr>
+    <tr>
+      <th>387</th>
+      <td>0.027969</td>
+      <td>0.027627</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001343</td>
+      <td>raytrace</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/regex_compile-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">regex_compile</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>34</th>
+      <td>0.343969</td>
+      <td>0.342940</td>
+      <td>python2.7</td>
+      <td>0.009645</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>0.348194</td>
+      <td>0.346209</td>
+      <td>python3.4</td>
+      <td>0.008963</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>0.332967</td>
+      <td>0.332261</td>
+      <td>python3.5</td>
+      <td>0.006449</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>212</th>
+      <td>0.374376</td>
+      <td>0.373799</td>
+      <td>python3.6</td>
+      <td>0.007764</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>271</th>
+      <td>0.355688</td>
+      <td>0.354725</td>
+      <td>python3.7</td>
+      <td>0.010787</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>332</th>
+      <td>0.079331</td>
+      <td>0.078311</td>
+      <td>pypy5.6.0</td>
+      <td>0.004870</td>
+      <td>regex_compile</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>0.047402</td>
+      <td>0.046748</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001673</td>
+      <td>regex_compile</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/regex_dna-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">regex_dna</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>35</th>
+      <td>0.249833</td>
+      <td>0.249339</td>
+      <td>python2.7</td>
+      <td>0.003324</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0.235515</td>
+      <td>0.234844</td>
+      <td>python3.4</td>
+      <td>0.003107</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>0.249807</td>
+      <td>0.248986</td>
+      <td>python3.5</td>
+      <td>0.003486</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>213</th>
+      <td>0.240438</td>
+      <td>0.240298</td>
+      <td>python3.6</td>
+      <td>0.004678</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>0.265368</td>
+      <td>0.263231</td>
+      <td>python3.7</td>
+      <td>0.010272</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>333</th>
+      <td>0.098053</td>
+      <td>0.097810</td>
+      <td>pypy5.6.0</td>
+      <td>0.002191</td>
+      <td>regex_dna</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td>0.105466</td>
+      <td>0.104961</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.004418</td>
+      <td>regex_dna</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/regex_effbot-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">regex_effbot</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>36</th>
+      <td>0.004914</td>
+      <td>0.004898</td>
+      <td>python2.7</td>
+      <td>0.000089</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>0.005307</td>
+      <td>0.005253</td>
+      <td>python3.4</td>
+      <td>0.000290</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>0.005688</td>
+      <td>0.005675</td>
+      <td>python3.5</td>
+      <td>0.000133</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>0.004851</td>
+      <td>0.004820</td>
+      <td>python3.6</td>
+      <td>0.000145</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>0.004729</td>
+      <td>0.004740</td>
+      <td>python3.7</td>
+      <td>0.000120</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>334</th>
+      <td>0.002205</td>
+      <td>0.002196</td>
+      <td>pypy5.6.0</td>
+      <td>0.000040</td>
+      <td>regex_effbot</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>0.002479</td>
+      <td>0.002478</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000070</td>
+      <td>regex_effbot</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/regex_v8-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">regex_v8</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>37</th>
+      <td>0.053709</td>
+      <td>0.053607</td>
+      <td>python2.7</td>
+      <td>0.001217</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>0.041863</td>
+      <td>0.041771</td>
+      <td>python3.4</td>
+      <td>0.000674</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>156</th>
+      <td>0.044693</td>
+      <td>0.044493</td>
+      <td>python3.5</td>
+      <td>0.001224</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>215</th>
+      <td>0.043873</td>
+      <td>0.043754</td>
+      <td>python3.6</td>
+      <td>0.001146</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>0.041949</td>
+      <td>0.041827</td>
+      <td>python3.7</td>
+      <td>0.001086</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>335</th>
+      <td>0.095831</td>
+      <td>0.095192</td>
+      <td>pypy5.6.0</td>
+      <td>0.003332</td>
+      <td>regex_v8</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>0.027382</td>
+      <td>0.027051</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.001627</td>
+      <td>regex_v8</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/richards-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">richards</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>38</th>
+      <td>0.156576</td>
+      <td>0.155993</td>
+      <td>python2.7</td>
+      <td>0.002770</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>0.161915</td>
+      <td>0.160734</td>
+      <td>python3.4</td>
+      <td>0.005014</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>157</th>
+      <td>0.169338</td>
+      <td>0.169068</td>
+      <td>python3.5</td>
+      <td>0.002764</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>216</th>
+      <td>0.177092</td>
+      <td>0.176770</td>
+      <td>python3.6</td>
+      <td>0.005043</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>275</th>
+      <td>0.155222</td>
+      <td>0.154909</td>
+      <td>python3.7</td>
+      <td>0.005236</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>336</th>
+      <td>0.006467</td>
+      <td>0.006425</td>
+      <td>pypy5.6.0</td>
+      <td>0.000199</td>
+      <td>richards</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>0.006684</td>
+      <td>0.006662</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000216</td>
+      <td>richards</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/scimark_fft-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">scimark_fft</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>39</th>
+      <td>0.646828</td>
+      <td>0.643105</td>
+      <td>python2.7</td>
+      <td>0.013772</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>0.651564</td>
+      <td>0.649798</td>
+      <td>python3.4</td>
+      <td>0.009348</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>158</th>
+      <td>0.713312</td>
+      <td>0.711643</td>
+      <td>python3.5</td>
+      <td>0.008075</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>217</th>
+      <td>0.690472</td>
+      <td>0.689894</td>
+      <td>python3.6</td>
+      <td>0.008609</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>276</th>
+      <td>0.663974</td>
+      <td>0.664227</td>
+      <td>python3.7</td>
+      <td>0.012636</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>337</th>
+      <td>0.009389</td>
+      <td>0.009345</td>
+      <td>pypy5.6.0</td>
+      <td>0.000174</td>
+      <td>scimark_fft</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td>0.009496</td>
+      <td>0.009465</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000347</td>
+      <td>scimark_fft</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/scimark_lu-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">scimark_lu</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>40</th>
+      <td>0.505185</td>
+      <td>0.505478</td>
+      <td>python2.7</td>
+      <td>0.005561</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>0.526729</td>
+      <td>0.525912</td>
+      <td>python3.4</td>
+      <td>0.010146</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>159</th>
+      <td>0.491970</td>
+      <td>0.489963</td>
+      <td>python3.5</td>
+      <td>0.011265</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>218</th>
+      <td>0.472977</td>
+      <td>0.472303</td>
+      <td>python3.6</td>
+      <td>0.011155</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>277</th>
+      <td>0.353273</td>
+      <td>0.352452</td>
+      <td>python3.7</td>
+      <td>0.009647</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>338</th>
+      <td>0.001554</td>
+      <td>0.001550</td>
+      <td>pypy5.6.0</td>
+      <td>0.000027</td>
+      <td>scimark_lu</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td>0.001621</td>
+      <td>0.001616</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000054</td>
+      <td>scimark_lu</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/scimark_monte_carlo-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">scimark_monte_carlo</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>41</th>
+      <td>0.194541</td>
+      <td>0.194037</td>
+      <td>python2.7</td>
+      <td>0.002615</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>0.207722</td>
+      <td>0.207609</td>
+      <td>python3.4</td>
+      <td>0.004403</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>160</th>
+      <td>0.220305</td>
+      <td>0.220396</td>
+      <td>python3.5</td>
+      <td>0.004738</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>219</th>
+      <td>0.226954</td>
+      <td>0.226366</td>
+      <td>python3.6</td>
+      <td>0.005287</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>278</th>
+      <td>0.203844</td>
+      <td>0.203485</td>
+      <td>python3.7</td>
+      <td>0.005578</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>0.003846</td>
+      <td>0.003833</td>
+      <td>pypy5.6.0</td>
+      <td>0.000073</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+    <tr>
+      <th>395</th>
+      <td>0.003456</td>
+      <td>0.003457</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000103</td>
+      <td>scimark_monte_carlo</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/scimark_sor-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">scimark_sor</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>42</th>
+      <td>0.417890</td>
+      <td>0.416903</td>
+      <td>python2.7</td>
+      <td>0.005382</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>0.455383</td>
+      <td>0.453734</td>
+      <td>python3.4</td>
+      <td>0.008049</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>161</th>
+      <td>0.477956</td>
+      <td>0.477831</td>
+      <td>python3.5</td>
+      <td>0.007034</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>220</th>
+      <td>0.470675</td>
+      <td>0.470569</td>
+      <td>python3.6</td>
+      <td>0.007867</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>279</th>
+      <td>0.396080</td>
+      <td>0.395941</td>
+      <td>python3.7</td>
+      <td>0.007807</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>340</th>
+      <td>0.000834</td>
+      <td>0.000829</td>
+      <td>pypy5.6.0</td>
+      <td>0.000033</td>
+      <td>scimark_sor</td>
+    </tr>
+    <tr>
+      <th>396</th>
+      <td>0.000863</td>
+      <td>0.000860</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000043</td>
+      <td>scimark_sor</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/scimark_sparse_mat_mult-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">scimark_sparse_mat_mult</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>43</th>
+      <td>0.008290</td>
+      <td>0.008255</td>
+      <td>python2.7</td>
+      <td>0.000223</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>0.008080</td>
+      <td>0.008028</td>
+      <td>python3.4</td>
+      <td>0.000141</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>0.009074</td>
+      <td>0.009091</td>
+      <td>python3.5</td>
+      <td>0.000208</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>0.008235</td>
+      <td>0.008223</td>
+      <td>python3.6</td>
+      <td>0.000245</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>0.007940</td>
+      <td>0.007935</td>
+      <td>python3.7</td>
+      <td>0.000235</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>341</th>
+      <td>0.000122</td>
+      <td>0.000121</td>
+      <td>pypy5.6.0</td>
+      <td>0.000002</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+    <tr>
+      <th>397</th>
+      <td>0.000127</td>
+      <td>0.000126</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000005</td>
+      <td>scimark_sparse_mat_mult</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/spambayes-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">spambayes</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>44</th>
+      <td>0.160895</td>
+      <td>0.160926</td>
+      <td>python2.7</td>
+      <td>0.003172</td>
+      <td>spambayes</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>0.053199</td>
+      <td>0.052792</td>
+      <td>pypy5.6.0</td>
+      <td>0.003099</td>
+      <td>spambayes</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/spectral_norm-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">spectral_norm</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>45</th>
+      <td>0.232405</td>
+      <td>0.231539</td>
+      <td>python2.7</td>
+      <td>0.003097</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>0.293212</td>
+      <td>0.291318</td>
+      <td>python3.4</td>
+      <td>0.007708</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>163</th>
+      <td>0.310099</td>
+      <td>0.308516</td>
+      <td>python3.5</td>
+      <td>0.007651</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>222</th>
+      <td>0.292711</td>
+      <td>0.291260</td>
+      <td>python3.6</td>
+      <td>0.008804</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>281</th>
+      <td>0.276450</td>
+      <td>0.276155</td>
+      <td>python3.7</td>
+      <td>0.008279</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>343</th>
+      <td>0.005455</td>
+      <td>0.005419</td>
+      <td>pypy5.6.0</td>
+      <td>0.000138</td>
+      <td>spectral_norm</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td>0.005548</td>
+      <td>0.005491</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000272</td>
+      <td>spectral_norm</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sqlalchemy_declarative-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sqlalchemy_declarative</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>46</th>
+      <td>0.268892</td>
+      <td>0.268419</td>
+      <td>python2.7</td>
+      <td>0.006496</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>0.299540</td>
+      <td>0.299038</td>
+      <td>python3.4</td>
+      <td>0.006819</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>164</th>
+      <td>0.286996</td>
+      <td>0.286832</td>
+      <td>python3.5</td>
+      <td>0.007248</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>223</th>
+      <td>0.295497</td>
+      <td>0.295866</td>
+      <td>python3.6</td>
+      <td>0.006636</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>282</th>
+      <td>0.277210</td>
+      <td>0.276241</td>
+      <td>python3.7</td>
+      <td>0.009359</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>344</th>
+      <td>0.271740</td>
+      <td>0.270286</td>
+      <td>pypy5.6.0</td>
+      <td>0.014889</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td>0.334347</td>
+      <td>0.332916</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.019093</td>
+      <td>sqlalchemy_declarative</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sqlalchemy_imperative-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sqlalchemy_imperative</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>47</th>
+      <td>0.053751</td>
+      <td>0.053154</td>
+      <td>python2.7</td>
+      <td>0.001962</td>
+      <td>sqlalchemy_imperative</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>0.064407</td>
+      <td>0.063782</td>
+      <td>python3.4</td>
+      <td>0.002467</td>
+      <td>sqlalchemy_imperative</td>
+    </tr>
+    <tr>
+      <th>165</th>
+      <td>0.057350</td>
+      <td>0.056664</td>
+      <td>python3.5</td>
+      <td>0.002481</td>
+      <td>sqlalchemy_imperative</td>
+    </tr>
+    <tr>
+      <th>224</th>
+      <td>0.057134</td>
+      <td>0.056465</td>
+      <td>python3.6</td>
+      <td>0.003360</td>
+      <td>sqlalchemy_imperative</td>
+    </tr>
+    <tr>
+      <th>283</th>
+      <td>0.051858</td>
+      <td>0.051337</td>
+      <td>python3.7</td>
+      <td>0.002310</td>
+      <td>sqlalchemy_imperative</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sqlite_synth-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sqlite_synth</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>48</th>
+      <td>0.000004</td>
+      <td>0.000004</td>
+      <td>python2.7</td>
+      <td>1.316140e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>0.000006</td>
+      <td>0.000006</td>
+      <td>python3.4</td>
+      <td>9.619870e-08</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>0.000006</td>
+      <td>0.000006</td>
+      <td>python3.5</td>
+      <td>1.304340e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>0.000006</td>
+      <td>0.000006</td>
+      <td>python3.6</td>
+      <td>1.458988e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>284</th>
+      <td>0.000005</td>
+      <td>0.000005</td>
+      <td>python3.7</td>
+      <td>3.049296e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>345</th>
+      <td>0.000003</td>
+      <td>0.000003</td>
+      <td>pypy5.6.0</td>
+      <td>1.171906e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>0.000003</td>
+      <td>0.000003</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>1.635533e-07</td>
+      <td>sqlite_synth</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sympy_expand-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sympy_expand</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>49</th>
+      <td>1.420316</td>
+      <td>1.418876</td>
+      <td>python2.7</td>
+      <td>0.010288</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>1.306004</td>
+      <td>1.313993</td>
+      <td>python3.4</td>
+      <td>0.029023</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>1.072273</td>
+      <td>1.078114</td>
+      <td>python3.5</td>
+      <td>0.025889</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>226</th>
+      <td>0.929988</td>
+      <td>0.929334</td>
+      <td>python3.6</td>
+      <td>0.013014</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>285</th>
+      <td>0.773326</td>
+      <td>0.771854</td>
+      <td>python3.7</td>
+      <td>0.012954</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>346</th>
+      <td>0.200067</td>
+      <td>0.196134</td>
+      <td>pypy5.6.0</td>
+      <td>0.011559</td>
+      <td>sympy_expand</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>0.275688</td>
+      <td>0.270265</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.017900</td>
+      <td>sympy_expand</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sympy_integrate-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sympy_integrate</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>50</th>
+      <td>0.045746</td>
+      <td>0.045432</td>
+      <td>python2.7</td>
+      <td>0.001150</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>0.049245</td>
+      <td>0.048932</td>
+      <td>python3.4</td>
+      <td>0.001622</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>0.043095</td>
+      <td>0.043159</td>
+      <td>python3.5</td>
+      <td>0.000693</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>227</th>
+      <td>0.042955</td>
+      <td>0.042778</td>
+      <td>python3.6</td>
+      <td>0.001071</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>286</th>
+      <td>0.038986</td>
+      <td>0.038946</td>
+      <td>python3.7</td>
+      <td>0.001127</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>347</th>
+      <td>0.040279</td>
+      <td>0.039707</td>
+      <td>pypy5.6.0</td>
+      <td>0.004081</td>
+      <td>sympy_integrate</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>0.089167</td>
+      <td>0.087537</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.009068</td>
+      <td>sympy_integrate</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sympy_sum-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sympy_sum</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>51</th>
+      <td>0.301620</td>
+      <td>0.300607</td>
+      <td>python2.7</td>
+      <td>0.006048</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>0.276601</td>
+      <td>0.275381</td>
+      <td>python3.4</td>
+      <td>0.007441</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>0.224955</td>
+      <td>0.224360</td>
+      <td>python3.5</td>
+      <td>0.003717</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>0.199736</td>
+      <td>0.199154</td>
+      <td>python3.6</td>
+      <td>0.005297</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>287</th>
+      <td>0.180270</td>
+      <td>0.180495</td>
+      <td>python3.7</td>
+      <td>0.004118</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>348</th>
+      <td>0.092442</td>
+      <td>0.089782</td>
+      <td>pypy5.6.0</td>
+      <td>0.008655</td>
+      <td>sympy_sum</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>0.150971</td>
+      <td>0.148832</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.015215</td>
+      <td>sympy_sum</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/sympy_str-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">sympy_str</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>52</th>
+      <td>0.577855</td>
+      <td>0.576863</td>
+      <td>python2.7</td>
+      <td>0.008130</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>0.538670</td>
+      <td>0.538735</td>
+      <td>python3.4</td>
+      <td>0.009664</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>0.454614</td>
+      <td>0.456847</td>
+      <td>python3.5</td>
+      <td>0.011104</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>229</th>
+      <td>0.409482</td>
+      <td>0.409770</td>
+      <td>python3.6</td>
+      <td>0.008589</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>288</th>
+      <td>0.349640</td>
+      <td>0.348308</td>
+      <td>python3.7</td>
+      <td>0.009505</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>0.120725</td>
+      <td>0.115255</td>
+      <td>pypy5.6.0</td>
+      <td>0.015617</td>
+      <td>sympy_str</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td>0.171393</td>
+      <td>0.167409</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.017059</td>
+      <td>sympy_str</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/telco-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">telco</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>53</th>
+      <td>0.539919</td>
+      <td>0.537957</td>
+      <td>python2.7</td>
+      <td>0.007765</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>0.013954</td>
+      <td>0.013895</td>
+      <td>python3.4</td>
+      <td>0.000320</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>171</th>
+      <td>0.014339</td>
+      <td>0.014350</td>
+      <td>python3.5</td>
+      <td>0.000269</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>230</th>
+      <td>0.013514</td>
+      <td>0.013497</td>
+      <td>python3.6</td>
+      <td>0.000386</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>289</th>
+      <td>0.011467</td>
+      <td>0.011387</td>
+      <td>python3.7</td>
+      <td>0.000682</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>350</th>
+      <td>0.015297</td>
+      <td>0.015339</td>
+      <td>pypy5.6.0</td>
+      <td>0.000521</td>
+      <td>telco</td>
+    </tr>
+    <tr>
+      <th>405</th>
+      <td>0.100215</td>
+      <td>0.100382</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.004014</td>
+      <td>telco</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/unpack_sequence-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">unpack_sequence</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>54</th>
+      <td>1.109847e-07</td>
+      <td>1.101607e-07</td>
+      <td>python2.7</td>
+      <td>2.820550e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>1.273402e-07</td>
+      <td>1.272077e-07</td>
+      <td>python3.4</td>
+      <td>2.782053e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>172</th>
+      <td>1.334245e-07</td>
+      <td>1.326784e-07</td>
+      <td>python3.5</td>
+      <td>3.472287e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>231</th>
+      <td>8.992002e-08</td>
+      <td>8.833576e-08</td>
+      <td>python3.6</td>
+      <td>5.548868e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>290</th>
+      <td>8.431320e-08</td>
+      <td>8.379849e-08</td>
+      <td>python3.7</td>
+      <td>4.232246e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>351</th>
+      <td>1.794836e-07</td>
+      <td>1.793608e-07</td>
+      <td>pypy5.6.0</td>
+      <td>6.813298e-09</td>
+      <td>unpack_sequence</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td>1.714195e-07</td>
+      <td>1.705713e-07</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>1.180231e-08</td>
+      <td>unpack_sequence</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/unpickle-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">unpickle</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>55</th>
+      <td>0.000030</td>
+      <td>0.000029</td>
+      <td>python2.7</td>
+      <td>1.824197e-06</td>
+      <td>unpickle</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>0.000036</td>
+      <td>0.000036</td>
+      <td>python3.4</td>
+      <td>8.302283e-07</td>
+      <td>unpickle</td>
+    </tr>
+    <tr>
+      <th>173</th>
+      <td>0.000039</td>
+      <td>0.000039</td>
+      <td>python3.5</td>
+      <td>7.855760e-07</td>
+      <td>unpickle</td>
+    </tr>
+    <tr>
+      <th>232</th>
+      <td>0.000031</td>
+      <td>0.000031</td>
+      <td>python3.6</td>
+      <td>1.128009e-06</td>
+      <td>unpickle</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>0.000028</td>
+      <td>0.000028</td>
+      <td>python3.7</td>
+      <td>6.382187e-07</td>
+      <td>unpickle</td>
+    </tr>
+    <tr>
+      <th>352</th>
+      <td>0.000035</td>
+      <td>0.000034</td>
+      <td>pypy5.6.0</td>
+      <td>1.200774e-06</td>
+      <td>unpickle</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/unpickle_list-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">unpickle_list</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>56</th>
+      <td>0.000019</td>
+      <td>0.000019</td>
+      <td>python2.7</td>
+      <td>4.778430e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>0.000016</td>
+      <td>0.000016</td>
+      <td>python3.4</td>
+      <td>4.254376e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>0.000016</td>
+      <td>0.000016</td>
+      <td>python3.5</td>
+      <td>2.896465e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>0.000007</td>
+      <td>0.000007</td>
+      <td>python3.6</td>
+      <td>2.967743e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+    <tr>
+      <th>292</th>
+      <td>0.000006</td>
+      <td>0.000006</td>
+      <td>python3.7</td>
+      <td>1.994668e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+    <tr>
+      <th>353</th>
+      <td>0.000012</td>
+      <td>0.000012</td>
+      <td>pypy5.6.0</td>
+      <td>4.041836e-07</td>
+      <td>unpickle_list</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/unpickle_pure_python-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">unpickle_pure_python</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>57</th>
+      <td>0.000429</td>
+      <td>0.000429</td>
+      <td>python2.7</td>
+      <td>0.000013</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>0.000741</td>
+      <td>0.000736</td>
+      <td>python3.4</td>
+      <td>0.000019</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>0.000776</td>
+      <td>0.000774</td>
+      <td>python3.5</td>
+      <td>0.000024</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>0.000800</td>
+      <td>0.000804</td>
+      <td>python3.6</td>
+      <td>0.000021</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>293</th>
+      <td>0.000760</td>
+      <td>0.000756</td>
+      <td>python3.7</td>
+      <td>0.000022</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>354</th>
+      <td>0.000044</td>
+      <td>0.000043</td>
+      <td>pypy5.6.0</td>
+      <td>0.000003</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>0.000076</td>
+      <td>0.000075</td>
+      <td>pypy3-5.10.0-2</td>
+      <td>0.000004</td>
+      <td>unpickle_pure_python</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/xml_etree_parse-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">xml_etree_parse</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>58</th>
+      <td>0.170967</td>
+      <td>0.170200</td>
+      <td>python2.7</td>
+      <td>0.004199</td>
+      <td>xml_etree_parse</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>0.279642</td>
+      <td>0.278116</td>
+      <td>python3.4</td>
+      <td>0.008604</td>
+      <td>xml_etree_parse</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>0.299479</td>
+      <td>0.299363</td>
+      <td>python3.5</td>
+      <td>0.004288</td>
+      <td>xml_etree_parse</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>0.254030</td>
+      <td>0.254102</td>
+      <td>python3.6</td>
+      <td>0.004516</td>
+      <td>xml_etree_parse</td>
+    </tr>
+    <tr>
+      <th>294</th>
+      <td>0.263720</td>
+      <td>0.262211</td>
+      <td>python3.7</td>
+      <td>0.010129</td>
+      <td>xml_etree_parse</td>
+    </tr>
+    <tr>
+      <th>355</th>
+      <td>0.469450</td>
+      <td>0.462864</td>
+      <td>pypy5.6.0</td>
+      <td>0.018710</td>
+      <td>xml_etree_parse</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/xml_etree_iterparse-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">xml_etree_iterparse</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>59</th>
+      <td>0.162029</td>
+      <td>0.161400</td>
+      <td>python2.7</td>
+      <td>0.003839</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>0.393465</td>
+      <td>0.390779</td>
+      <td>python3.4</td>
+      <td>0.012085</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+    <tr>
+      <th>177</th>
+      <td>0.411064</td>
+      <td>0.410677</td>
+      <td>python3.5</td>
+      <td>0.008082</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+    <tr>
+      <th>236</th>
+      <td>0.218182</td>
+      <td>0.217915</td>
+      <td>python3.6</td>
+      <td>0.007771</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+    <tr>
+      <th>295</th>
+      <td>0.205928</td>
+      <td>0.205119</td>
+      <td>python3.7</td>
+      <td>0.008685</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+    <tr>
+      <th>356</th>
+      <td>0.190257</td>
+      <td>0.188002</td>
+      <td>pypy5.6.0</td>
+      <td>0.007462</td>
+      <td>xml_etree_iterparse</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/xml_etree_generate-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">xml_etree_generate</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>60</th>
+      <td>0.257565</td>
+      <td>0.256724</td>
+      <td>python2.7</td>
+      <td>0.005744</td>
+      <td>xml_etree_generate</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>0.245449</td>
+      <td>0.244382</td>
+      <td>python3.4</td>
+      <td>0.004842</td>
+      <td>xml_etree_generate</td>
+    </tr>
+    <tr>
+      <th>178</th>
+      <td>0.244563</td>
+      <td>0.243873</td>
+      <td>python3.5</td>
+      <td>0.004324</td>
+      <td>xml_etree_generate</td>
+    </tr>
+    <tr>
+      <th>237</th>
+      <td>0.223485</td>
+      <td>0.221942</td>
+      <td>python3.6</td>
+      <td>0.008921</td>
+      <td>xml_etree_generate</td>
+    </tr>
+    <tr>
+      <th>296</th>
+      <td>0.207410</td>
+      <td>0.207456</td>
+      <td>python3.7</td>
+      <td>0.005083</td>
+      <td>xml_etree_generate</td>
+    </tr>
+    <tr>
+      <th>357</th>
+      <td>0.086278</td>
+      <td>0.086036</td>
+      <td>pypy5.6.0</td>
+      <td>0.002646</td>
+      <td>xml_etree_generate</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+                    <div class="card">
+                <img class="card-img-top" src="png/xml_etree_process-result.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">xml_etree_process</h5>
+                <p class="card-text">
+                    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mean</th>
+      <th>median</th>
+      <th>runtime</th>
+      <th>stdev</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>61</th>
+      <td>0.175770</td>
+      <td>0.175477</td>
+      <td>python2.7</td>
+      <td>0.002790</td>
+      <td>xml_etree_process</td>
+    </tr>
+    <tr>
+      <th>120</th>
+      <td>0.202450</td>
+      <td>0.201705</td>
+      <td>python3.4</td>
+      <td>0.009127</td>
+      <td>xml_etree_process</td>
+    </tr>
+    <tr>
+      <th>179</th>
+      <td>0.199168</td>
+      <td>0.199591</td>
+      <td>python3.5</td>
+      <td>0.003470</td>
+      <td>xml_etree_process</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>0.179066</td>
+      <td>0.178363</td>
+      <td>python3.6</td>
+      <td>0.005216</td>
+      <td>xml_etree_process</td>
+    </tr>
+    <tr>
+      <th>297</th>
+      <td>0.165501</td>
+      <td>0.164430</td>
+      <td>python3.7</td>
+      <td>0.004452</td>
+      <td>xml_etree_process</td>
+    </tr>
+    <tr>
+      <th>358</th>
+      <td>0.056442</td>
+      <td>0.055975</td>
+      <td>pypy5.6.0</td>
+      <td>0.002707</td>
+      <td>xml_etree_process</td>
+    </tr>
+  </tbody>
+</table>
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            </div>
+</body>
+</html>
