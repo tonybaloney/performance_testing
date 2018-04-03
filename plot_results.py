@@ -9,7 +9,7 @@ import pandas as pd
 
 sns.set(style="whitegrid")
 
-parser = argparse.ArgumentParser(description='Convert a list of benchmarks into a CSV')
+parser = argparse.ArgumentParser(description='Convert a list of benchmarks into a set of PNG graphs')
 parser.add_argument('files', metavar='N', type=str, nargs='+',
                     help='files to compare')
 args = parser.parse_args()
